@@ -30,7 +30,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB,
         </span>
-        . I am also familiar with PostreSQL and Prisma. I am always looking to
+        . I am also familiar with PostgreSQL and Prisma. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
