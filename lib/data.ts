@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import AppwriteApp from "@/public/AppwriteApp.png";
+import analytic from "@/public/analytic.png";
+import Shopping_cart from "@/public/Shopping_cart.png"
 
 export const links = [
   {
@@ -35,73 +35,89 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Samarpan High School",
+    location: "Gujarat, India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "i studied my 11th and 12th here, and also learned coding and programming",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020-2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Freecodecamp.org",
+    location: "Youtube",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      " i learned web development from Youtube and other more channels, after 6 month of completing, i found intern role.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2020 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Software Engineer Intern",
+    location: "Bangalore, India",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Conducted code reviews and redesigned an API to enhance flexibility for third-party integration. • Implemented performance optimizations using React.js,Node.js and Express.js resulting in a reduction in load times and enhanced user experience. • collaborated on implementing new features and resolving bugs in existing codebases.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "jan-2021 - july-2021",
+  },
+  {
+    title: "Associate Software Engineer",
+    location: "Bangalore, India",
+    description:
+      "Collaborating as part of a cross-functional team and contributed to the development of a web application using MERN stack, driving improvements in scalability and user engagement. • Utilized application to streamline state management and data querying processes, leading to 30% increment in application efficiency and smoother navigation. • Orchestrated seamless API integrations, leveraging Databases to ensure   Smooth data flow and fortify system resilience",
+    icon: React.createElement(FaReact),
+    date: "july-2021 - july-2022",
+  },
+  {
+    title: "Software Engineer",
+    location: "Bangalore, India",
+    description:
+      "Built data-rich dashboard, seamlessly integrating Databases. Empowering users with actionable insights for informed decision-making. • Conceived and introduced the Automated Email Response System, which reduced response time to 1,000s email messages by 71%, resulting in increased email open rates and driving significant user interaction with the platform. • Implemented authentication for user account security, allowing seamless integration with email/password or Google provider, enhancing user data protection and platform trust. • Integrated wallet functionality into the payment feature, facilitating effortless fund management for users, thereby encouraging repeat transactions and strengthening user relationships. now days, looking for job whoch have remote culture.",
+    icon: React.createElement(FaReact),
+    date: "July-2022 - Jan-2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "NextAuth App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Integrate secure user authentication into your Next.js web applications Appwrite, an open-source backend server. ",
+    tags: ["Next.js", "AppWrite", "Tailwind"],
+    imageUrl: AppwriteApp,
   },
   {
-    title: "rmtDev",
+    title: "Anylytics Dashboard",
     description:
       "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
+    tags: ["React", "TypeScript", "MongoDB","Next.js", "Tailwind"],
+    imageUrl: analytic,
+  },  
   {
-    title: "Word Analytics",
+    title: "Shopping Cart",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web App for shopping with excellent features like searching, filtering, Sorting according to Customer",
+    tags: ["Reducer","React","Context API"],
+    imageUrl: Shopping_cart,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
+  "Docker",
+  "Kubarnates",
+  "AWS",
   "Redux",
   "GraphQL",
+  "Git",
+  "Tailwind",
+  "MongoDB",
   "Apollo",
   "Express",
   "PostgreSQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "HTML",
+  "CSS",
 ] as const;

@@ -30,7 +30,7 @@ export default function About() {
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB,
         </span>
-        . I am also familiar with PostgreSQL and Prisma. I am always looking to
+        . I am learning new thing everyday. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
@@ -38,7 +38,7 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        Physical games, watching Sci-fi movies, and playing with my dog. I also enjoy{" "}
+        Physical games, watching Sci-fi movies, and Singing. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{" "}
         <span className="font-medium">history and philosophy</span>. I'm also
