@@ -87,7 +87,7 @@ export const projectsData = [
   {
     title: "Anylytics Dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Build Dashboard, seamlessly integrating Databases. Empowering users with actionable insights for informed decision-making.",
     tags: ["React", "TypeScript", "MongoDB","Next.js", "Tailwind"],
     imageUrl: analytic,
   },  
