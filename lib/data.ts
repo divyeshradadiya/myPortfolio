@@ -110,6 +110,7 @@ export const skillsData = [
   "Kubarnates",
   "AWS",
   "Redux",
+  "SQL",
   "GraphQL",
   "Git",
   "Tailwind",
