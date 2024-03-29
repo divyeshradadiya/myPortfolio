@@ -40,7 +40,6 @@ export const experiencesData = [
     description:
       "i studied my 11th and 12th here, and also learned coding and programming",
     icon: React.createElement(LuGraduationCap),
-    date: "2020-2022",
   },
   {
     title: "Freecodecamp.org",
@@ -48,7 +47,7 @@ export const experiencesData = [
     description:
       " i learned web development from Youtube and other more channels, after 6 month of completing, i found intern role.",
     icon: React.createElement(CgWorkAlt),
-    date: "2020 - 2021",
+    date: "2017 - 2018",
   },
   {
     title: "Software Engineer Intern",
