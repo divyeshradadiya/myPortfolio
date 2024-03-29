@@ -40,6 +40,7 @@ export const experiencesData = [
     description:
       "i studied my 11th and 12th here, and also learned coding and programming",
     icon: React.createElement(LuGraduationCap),
+    date: "",
   },
   {
     title: "Freecodecamp.org",
