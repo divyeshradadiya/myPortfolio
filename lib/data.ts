@@ -56,7 +56,7 @@ export const experiencesData = [
     description:
       " I started my journey by freelancing and made projects according to client need. i learned a lot from this phase.",
     icon: React.createElement(CgWorkAlt),
-    date: "2017 - 2018",
+    date: "2019 - 2020",
   },
   
   {
